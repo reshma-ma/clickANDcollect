@@ -1,5 +1,16 @@
-<!-- <ul>
-    <li *ngFor="let food of foods">
-        <img src="{{food}}" alt="">
+<ul>
+    <li *ngFor = "let food of foods">
+        <a>
+            <img src="{{food.imageUrl}}" alt="">
+            <div class="name">
+                {{food.name}}
+            </div>
+            <span class="favourite {{food.favourite?'':'not'}}">
+                ♥
+            </span>
+
+        </a>        
     </li>
-</ul> -->
+</ul>
+
+
