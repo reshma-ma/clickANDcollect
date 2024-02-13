@@ -11,10 +11,11 @@ export class NotFoundComponent implements OnInit {
   @Input() notFoundMessage:string="nothing found!";
   @Input() resetLinkText:string="Reset";
   @Input() resetLinkRoute:string="/";
+  
   constructor(){}
 
   ngOnInit(): void {
-      
+    
   }
 
 

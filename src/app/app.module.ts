@@ -12,6 +12,7 @@ import { TagsComponent } from './tags/tags.component';
 import { FoodPageComponent } from './food-page/food-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { FoodRatingBarComponent } from './food-rating-bar/food-rating-bar.component';
 
 defineComponents(IgcRatingComponent);
 @NgModule({
@@ -24,6 +25,7 @@ defineComponents(IgcRatingComponent);
     FoodPageComponent,
     CartPageComponent,
     NotFoundComponent,
+    FoodRatingBarComponent,
     
   ],
   imports: [

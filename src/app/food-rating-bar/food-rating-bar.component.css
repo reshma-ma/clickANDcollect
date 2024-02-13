@@ -1,0 +1,9 @@
+#bar{
+    display: flex;
+    opacity: .8;
+
+}
+#bar:hover{
+    color:#e27979;
+
+}

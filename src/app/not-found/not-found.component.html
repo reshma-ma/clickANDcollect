@@ -1,4 +1,8 @@
 <div *ngIf="visible">
     {{notFoundMessage}}
-    <a routerLink="{{resetLinkRoute}}">{{resetLinkText}}</a>
+    <a routerLink="{{resetLinkRoute}}">{{resetLinkText}}</a>   
+</div>
+
+<div *ngIf="visible" class="bar">
+    <app-food-rating-bar></app-food-rating-bar>
 </div>
